@@ -1,8 +1,17 @@
 <template>
   <nav>
-    <router-link :to="{
-          name: 'aboutakash',
-        }">Home screen</router-link>
+    <ul>
+      <li>
+        <router-link :to="{
+            name: 'aboutakash',
+          }">Home screen</router-link>
+      </li>
+      <li>
+        <router-link :to="{
+            name: 'anton',
+          }">Antons Screen</router-link>
+      </li>
+    </ul>
   </nav>
 </template>
 
@@ -14,4 +23,7 @@ export default {};
 .router-link-exact-active {
   font-weight: bold;
 }
+li{
+  list-style: none;
+  }
 </style>
