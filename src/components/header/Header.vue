@@ -11,6 +11,11 @@
             name: 'anton',
           }">Antons Screen</router-link>
       </li>
+      <li>
+        <router-link :to="{
+            name: 'joel',
+          }">Joels Screen</router-link>
+      </li>
     </ul>
   </nav>
 </template>

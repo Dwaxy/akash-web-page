@@ -4,6 +4,7 @@ import App from './App.vue'
 import VueRouter from 'vue-router';
 import aboutakash from './components/akash/about-akash'
 import Anton from './components/anton/Anton'
+import Joel from './/components/joel/Joel'
 
 Vue.config.productionTip = false
 
@@ -19,6 +20,11 @@ const routes = [
     name: "anton",
     path: "/anton",
     component: Anton
+  },
+  {
+    name: "joel",
+    path: "/joel",
+    component: Joel
   }
 ];
 
